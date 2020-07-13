@@ -48,11 +48,3 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .re {
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    line-height: 20px;
-  }
-}
