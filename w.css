@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.cir {
+  background-color: gray;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+}
+
+.re {
+  background-color: green;
+  color: white;
+}
+
+.ren {
+  color: white;
+}
+
+.rew {
+  background-color: #043a3a;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-4 {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .re {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+  }
+}
